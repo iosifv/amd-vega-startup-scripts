@@ -9,7 +9,9 @@ AMD's RX Vega cards need to be rebooted every time in order to mine at full spee
 ### 2. Install OverdriveNTool
 
   Install it from somewere online, it's a free tool.
+  
   Save a profile called "startup".
+  
   Optionally just use the .exe file provided in this repo.
   
 ### 3. Have your miner ready
@@ -19,12 +21,19 @@ AMD's RX Vega cards need to be rebooted every time in order to mine at full spee
 ### 4. Create Startup Task
 
 a) Using search you can open *Task Scheduler*
+
 b) Optionally create a new Folder
+
 c) Create a new task
+
 d) The task must have "Run with highest priviledges" checked in the "General" tab
+
 e) In action it must have 3 actions set:
+
 e1) Start A Program >> C:/vega-startup/start-ps-elevated.cmd (from this repository)
+
 e2) Start A Program >> C:/vega-startup/OverdriveNTool/burn-startup.bat
+
 e3) Start A Program >> {PATH TO YOUR MINER} - for START IN set the same directory so that it uses your predefined settings (especially for xmr-stack which uses about 3 config files)
 
 Reboot windows and check if it works
