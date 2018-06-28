@@ -8,7 +8,7 @@ AMD's RX Vega cards need to be rebooted every time in order to mine at full spee
   
 ### 2. Install OverdriveNTool
 
-  Install it from somewere online, it's a free tool.
+  Install it from somewere online, it's a free tool. https://forums.guru3d.com/threads/overdriventool-tool-for-amd-gpus.416116/
   
   Save a profile called "startup".
   
@@ -16,7 +16,7 @@ AMD's RX Vega cards need to be rebooted every time in order to mine at full spee
   
 ### 3. Have your miner ready
 
-  If you're using Vega, most likely you'd like to use xmr-stak.
+  If you're using Vega, most likely you'd like to use xmr-stak. https://github.com/fireice-uk/xmr-stak
 
 ### 4. Create Startup Task
 
