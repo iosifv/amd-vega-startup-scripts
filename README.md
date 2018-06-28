@@ -36,6 +36,7 @@ AMD's RX Vega cards need to be rebooted every time in order to mine at full spee
 ### Notes
 
 - Make sure that start-ps-elevated.cmd calls the correct reboot-vegas.ps1 file located in the right path
+- If there are some errors, they will be saved in C:/vega-startup/StartupLog.txt
 - reboot-vegas.ps1 is looking for devices "Radeon RX Vega" within the Device Manager, if yours is called something else change accordingly.
 - The logic of reboot-vegas.ps1 is a) find all vega cards b) disable all c) enable all
 - if you simply put the miner link in startup the mining will start before the cards are enabled/disabled so this whole thing won't work
