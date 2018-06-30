@@ -32,6 +32,7 @@ AMD's RX Vega cards need to be rebooted every time in order to mine at full spee
 - 1) Start A Program >> C:/vega-startup/start-ps-elevated.cmd (from this repository)
 - 2) Start A Program >> C:/vega-startup/OverdriveNTool/burn-startup.bat
 - 3) Start A Program >> {PATH TO YOUR MINER} - for START IN set the same directory so that it uses your predefined settings (especially for xmr-stak which uses about 3 config files)
+- run unblock-file.ps1 to make sure that the reboot-vegas.ps1 script can be executed (right click run with powershell)
 
 ### Notes
 
