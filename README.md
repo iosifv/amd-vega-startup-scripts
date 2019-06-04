@@ -1,5 +1,5 @@
 # RX Vega Startup Scripts
-AMD's RX Vega cards need to be rebooted every time in order to mine at full speed. This helps you set up this process to be automatic.
+AMD's RX Vega cards need to be rebooted often in order to mine at full speed. This helps you set up this process to be automatic.
 
 
 ### 1. Copy/Clone
